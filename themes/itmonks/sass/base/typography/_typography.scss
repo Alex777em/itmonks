@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Inter';
+	src: url('../../../fonts/Inter-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../../../fonts/Inter-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Microsoft Sans Serif Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../fonts/micross.woff') format('woff');
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";
